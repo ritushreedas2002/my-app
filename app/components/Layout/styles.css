@@ -1,0 +1,49 @@
+styles/pageTransition.scss
+.page-transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  pointer-events: none;
+
+  svg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: calc(100vh + 600px);
+      z-index: 101;
+  }
+
+  .route {
+      position: fixed;
+      left: 50%;
+      top: 40%;
+      transform: translateX(-50%);
+      font-size: 46px;
+      color: white;
+      z-index: 102;
+      margin: 0;
+      text-align: center;
+      font-family: var(--font-poppins);
+      font-weight: 600;
+  }
+}
+
+@keyframes textSlideUp {
+  0% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  100% {
+      opacity: 0;
+      transform: translateY(-100px);
+  }
+}
+
+
+
+
+
