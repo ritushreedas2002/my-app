@@ -11,7 +11,7 @@ export default function Home() {
         <Header />
         <PageTransition>
             <Head>
-                <title>Home Page</title>
+                <title>agency Page</title>
             </Head>
            
                 <h1>Home</h1>

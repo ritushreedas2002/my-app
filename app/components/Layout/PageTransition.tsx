@@ -170,11 +170,9 @@ interface PageTransitionProps {
 }
 
 const routes: { [key: string]: string } = {
-    "/": "Agency",
     "/src/home": "Projects",
+    "/src/agency": "Agency",
     "/src/expertise": "Expertise",
-    "/careers": "Careers",
-    "/contact": "Contact"
 };
 
 const curve = (initialPath: string, targetPath: string) => ({

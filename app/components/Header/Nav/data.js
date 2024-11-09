@@ -5,20 +5,12 @@ export const links = [
     },
     {
         title: "agency.",
-        href: "/"
+        href: "/src/agency"
     },
     {
         title: "expertise.",
         href: "/src/expertise"
     },
-    {
-        title: "careers",
-        href: "/"
-    },
-    {
-        title: "contact.",
-        href: "/"
-    }
 ]
 
 export const footerLinks = [
